@@ -5,15 +5,15 @@
     height: 100vh;
     background-color: yellow;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .center{
         width: 100px;
         height: 100px;
         background-color: green;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+       
 
         
     }
